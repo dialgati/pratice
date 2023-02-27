@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>       
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Prototype</title>
+</head>
+<body>
+            <nav class="navbar navbar-expand-lg bg-body-secondary">
+             <div class="container-fluid">
+               <a class="logo" href="index.html"><img src="image/logo.jpg" alt="image logo"></a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="about.html">ABout Us</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="catalog.html">Catalog</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="projects.html"> Projects</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="blog.html">Blog</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contacts</a>
+                  </li>
+                 </ul>
+                 <form class="d-flex" role="search">
+                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                   <button class="btn btn-outline-success" type="submit">Search</button>
+                 </form>
+               </div>
+             </div>
+            </nav>
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="carousel-caption d-md-block mb-5">
+                                <h1 class="tara text-start fs-1">Bienvenue à l'Université de Bakeli</h1>
+                                <p class="para text-start fs-3">L'avenir du digital c'est ici.</p>
+                                <button type="button" class="first btn btn-outline-light py-3">A propos de nous</button>
+                              </div>
+                            <img src="image/eleve.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <div class="carousel-caption d-md-block mb-5">
+                              <h1 class="tara text-start fs-1">Bienvenue à l'Université de Bakeli</h1>
+                              <p class="para text-start fs-3">L'avenir du digital c'est ici.</p>
+                              <button type="button" class="first btn btn-outline-light py-3">A propos de nous</button>
+                              </div>
+                            <img src="image/isto.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <div class="carousel-caption d-md-block mb-5">
+                              <h1 class="tara text-start fs-1">Bienvenue à l'Université de Bakeli</h1>
+                              <p class="para text-start fs-3">L'avenir du digital c'est ici.</p>
+                              <button type="button" class="first btn btn-outline-light py-3">A propos de nous</button>
+                              </div>
+                            <img src="image/student.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <div class="titre text-center mt-5"><h3>Facultés</h3></div>
+                      <div class="row row-cols-1 row-cols-md-4 ms-4 me-4 g-4 mt-5 bg-success">
+                        <div class="col">
+                          <div class="card h-100 border-0 ">
+                            <img src="image/sante.jpg" class="card-img-top" alt="...">
+                            <div class="card-body fs-3">
+                              <h5 class="card-title">médecine</h5>
+                              <p class="card-text">La médecine, au sens de pratique, est la science témoignant de l'organisation du corps, son fonctionnement normal,.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 border-0">
+                            <img src="image/compass.jpg" class="card-img-top" alt="...">
+                            <div class="card-body fs-3">
+                              <h5 class="card-title">Géographie</h5>
+                              <p class="card-text">Science qui a pour objet la description de l'aspect actuel du globe terrestre, au point de vue naturel et humain.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 border-0">
+                            <img src="image/computer.jpg" class="card-img-top" alt="...">
+                            <div class="card-body fs-3">
+                              <h5 class="card-title">Informatique</h5>
+                              <p class="card-text">Théorie et traitement de l'information à l'aide de programmes mis en œuvre sur ordinateurs.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 border-0">
+                            <img src="image/statue.jpg" class="card-img-top" alt="...">
+                            <div class="card-body fs-3">
+                              <h5 class="card-title">Art</h5>
+                              <p class="card-text">Ensemble de connaissances et de règles d'action, dans un domaine particulier.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row row-cols-1 row-cols-md-4 ms-4 me-4 g-4 mt-3 bg-info">
+                        <div class="col">
+                          <div class="card h-100 border-0">
+                            <img src="image/greece.jpg" class="card-img-top" alt="...">
+                            <div class="card-body fs-3">
+                              <h5 class="card-title">Histoire</h5>
+                              <p class="card-text">Connaissance et récit des évènements du passé jugés dignes de mémoire ; les faits ainsi relatés.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 border-0">
+                            <img src="image/justice.jpg" class="card-img-top" alt="...">
+                            <div class="card-body fs-3">
+                              <h5 class="card-title">Droit</h5>
+                              <p class="card-text">Le droit est l'ensemble des règles et des normes générales qui régissent les rapports entre les individus.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 border-0">
+                            <img src="image/college.jpg" class="card-img-top" alt="...">
+                            <div class="card-body fs-3">
+                              <h5 class="card-title">Lettres</h5>
+                              <p class="card-text">Réservée aux passionnés de littérature, cette licence prépare essentiellement aux métiers de l'enseignement.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 border-0">
+                            <img src="image/socrate.jpg" class="card-img-top" alt="...">
+                            <div class="card-body fs-3">
+                              <h5 class="card-title">Philosophie</h5>
+                              <p class="card-text">Ensemble des questions que l'être humain peut se poser sur lui-même et examen des réponses qu'il peut y apporter ; vision du monde</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="categorie text-center mt-5"><h5>Types de licence</h5></div>
+                      <div class="container">
+                        <div class="row">
+                          <div class="col">
+                      <div class="card border-0 ms-5 me-5">
+                        <div class="banner bg-secondary w-100 h-400 fs-3 p-5 text-center">Licence</div>
+                        <div class="card-body">
+                          <p class="card-text">La licence est un diplôme national de l'enseignement supérieur qui se prépare en six semestres à l'université.</p>
+                        </div>
+                      </div>
+                          </div>
+                          <div class="col">
+                        <div class="card border-0 ms-5 me-5">
+                        <div class="banner bg-secondary w-100 h-400 fs-3 p-5 text-center">Licence Pro</div>
+                          <div class="card-body">
+                            <p class="card-text">La licence professionnelle (LP) est un diplôme de niveau bac+3 qui se prépare à l’université, au sein des IUT.</p>
+                          </div>
+                        </div>
+                          </div>
+                          <div class="col">
+                          <div class="card border-0 ms-5 me-5">
+                            <div class="banner bg-secondary  fs-3 p-5 text-center">Licence technique</div>
+                            <div class="card-body">
+                              <p class="card-text">La licence de technologie est une formation scientifique pluridisplinaire de niveau BAC+3.</p>
+                            </div>
+                          </div>
+                          </div>
+                      </div>
+                      </div> 
+                      <div class="text-center d-flex justify-content-center mt-5">
+                        <button  type="button" class="btn btn-outline-secondary">Tous categoris</button>
+                        </div>  
+                          <h4 class="card-title text-center mt-5">Outils d'apprentissage</h4>
+                          <div class="container g-3 mt-4">
+                            <div class="row ">
+                              <div class="col-md-2" >
+                             <div class="card border-0">
+                            <img src="image/electrique.jpg" class="card-img-top" alt="...">
+                             </div>
+                              </div>
+                              <div class="col-md-2" >
+                              <div class="card border-0">
+                             <img src="image/droit.jpg" class="card-img-top" alt="...">
+                             </div>
+                              </div>
+                              <div class="col-md-2" >
+                              <div class="card border-0">
+                             <img src="image/fourniture.jpg" class="card-img-top" alt="...">
+                              </div>
+                              </div>
+                              <div class="col-md-2" >
+                                <div class="card border-0">
+                               <img src="image/matériel.jpg" class="card-img-top" alt="...">
+                                </div>
+                                 </div>
+                                 <div class="col-md-2" >
+                                  <div class="card border-0">
+                                 <img src="image/laptops.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  </div>
+                                  <div class="col-md-2" >
+                                    <div class="card border-0">
+                                   <img src="image/micros.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                     </div>
+                              </div>
+                             </div>
+                             <div class="categorie text-center mt-5"><h5>Our Projects</h5></div>
+                             <div class="categorie text-center mt-5"><h5>Our Furniture Design for Microsoft</h5></div>
+                             <div class="text-center d-flex justify-content-center mt-5">
+                              <button  type="button" class="btn btn-outline-secondary">All projects</button>
+                              </div> 
+                              <div class="container-fluid mt-5 bg-secondary py-5">
+                                <div class="fs-6 categorie text-center mt-3 text-light"><h5>Our Furniture Design for Microsoft</h5></div>
+                                <div class="text-center d-flex justify-content-center mt-5">
+                                  <button  type="button" class="btn btn-outline-light">Download PDF</button>
+                                  </div> 
+                              </div> 
+                              <div class="container d-flex justify-content-center p-5 ">
+                                <img src="image/teacher-1015630__340.webp" class="img-fluid" alt="...">
+                              </div>
+                              <div class="categorie text-center mt-3"><h2>About</h2></div>
+                              <div class="categorie text-center mt-3 ms-5 me-5"><p>Furi is a leading furniture manufacturer known worldwide for its impeccable quality, exceptional <br> customer service, and the most affordable prices. This is a family-owned, professional furniture <br> company conveniently nestled in the heart of London. For more than 35 years, Furi has been <br> building its own brand whilst also becoming the best licensing partner to such top lifestyle <br> brands like Ralph Lauren, Perennials, and Kelly Wearstler.</p></div>
+                              <div class="text-center d-flex justify-content-center mt-5">
+                                <button  type="button" class="btn btn-outline-secondary p-2">Read more</button>
+                                </div>
+                                <div class="categorie text-center mt-3"><h2>What We Offer</h2></div>
+                                <div class="categorie text-center mt-3 ms-5 me-5">Furi offers the highest quality wholesale furniture for real estate developers, furniture stores, interior designers, and <br> online retailers. We provide worldwide access to our furniture with such advantages as:</div>
+                                <div class="container-fluid mt-5">
+                                  <div class="back bg-secondary p-5">
+                                    <p class="titre text-center fs-1 text-light">Subscribe to Our Newsletter <br>
+                                      and receive a 7% discount on the wholesale furniture order!</p>
+                                    <div class="input-group d-flex justify-content-center">
+                                      <div class="input-group mb-3 w-50">
+                                        <input type="text" class="form-control p-3" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <button class="btn btn-outline-light" type="button" id="button-addon2">Subscribe</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="container mb-5">
+                                  <div class="passion">
+                                    <div class="categorie text-center"><h3>Passion for Innovations</h3></div>
+                                    <p class="titre text-center fs-5 text-secondary">The extensive experience of our talented craftsmen helps them create products with more capabilities, functionality,<br>
+                                      and safety</p>
+                                  </div>
+                                </div>
+                                <div class="container">
+                                  <div class="row">
+                                  <div class="card-group gap-4">
+                                    <div class="card border-0">
+                                      <img src="image/laptops.jpg" class="card-img-top w-100 h-50" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Safety</h5>
+                                        <p class="card-text text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card border-0">
+                                      <img src="image/studying-951818__340.jpg" class="card-img-top w-100 h-50" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">functionality</h5>
+                                        <p class="card-text text-secondary">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card border-0">
+                                      <img src="image/knowledge-4171793__340.jpg" class="card-img-top w-100 h-50" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Design</h5>
+                                        <p class="card-text text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="container">
+                                  <div class="row">
+                                    <div class="col-md-6">
+                                      <img src="image/book.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <h5 class="card-title text-center mb-5">What People Say</h5>
+                                    <div id="carouselExampleIndicators" class="carousel slide">
+                                      <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                      </div>
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br> ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non</p>
+                                          <h4 class="card-title text-center">Kate Holmes</h4>
+                                         </div>
+                                        <div class="carousel-item">
+                                          <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br> ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non</p>
+                                          <h4 class="card-title text-center">Ann RObertson</h4>
+                                        </div>
+                                        <div class="carousel-item">
+                                          <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br> ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non</p>
+                                          <h4 class="card-title text-center">Jane Stone</h4>
+                                      </div>
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                      </button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="container">
+                                  <div class="row">
+                                  <div class="card-group gap-4 mt-3">
+                                    <div class="card border-0">
+                                      <img src="image/eleve.jpg" class="card-img-top w-100 h-50" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Outdoor Furniture Items for this Summer</h5>
+                                        <p class="card-text text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                        <a href="lien" class="lien">Read more</a>
+                                      </div>
+                                    </div>
+                                    <div class="card border-0">
+                                      <img src="image/library.jpg" class="card-img-top w-100 h-50" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">New Furniture Collection Release</h5>
+                                        <p class="card-text text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                        <a href="lien" class="lien">Read more</a>
+                                      </div>
+                                    </div>
+                                    <div class="card border-0">
+                                      <img src="image/sante.jpg" class="card-img-top w-100 h-50" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">What's New? Leather Hickory Chair Sofas</h5>
+                                        <p class="card-text text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                        <a href="lien" class="lien">Read more</a>
+                                      </div>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-center d-flex justify-content-center">
+                                  <button  type="button" class="btn btn-outline-dark">All news</button>
+                                  </div> 
+                                  <section class="order-input text-bg-secondary p-3 my-5">
+                                  <div class="container text-center text-bg-light p-5 me-auto ms-auto my-5">
+                                    <h5 class="text-secondary">If you want to order our furniture or <br> have any questions or inquiries, please <br> contact us now.</h5>
+                                    <div class="mb-3 w-50 d-flex justify-content-center me-auto ms-auto">
+                                      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter your full name" disabled>
+                                    </div>
+                                    <div class="mb-3 w-50 d-flex justify-content-center me-auto ms-auto">
+                                      <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Enter your phone number" disabled>
+                                    </div>
+                                    <div class="mb-3 w-50 d-flex justify-content-center me-auto ms-auto">
+                                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your e-mail" disabled>
+                                    </div>
+                                    <div class="mb-3 w-50 d-flex justify-content-center me-auto ms-auto">
+                                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message" rows="5" disabled></textarea>
+                                    </div>
+                                    <div class="mb-3 d-flex justify-content-center">
+                                      <button type="button" class="btn btn-outline-dark w-50">send</button>
+                                    </div>
+                                  </div>
+                                </section>
+                                <section class="footer text-bg-secondary mt-4 py-5">
+                                  <div class="container-fluid">
+                                    <div class="row">
+                                      <div class="col-md-3">
+                                        <h2>Furi</h2>
+                                        <p>Furi is a leading furniture manufacturer known worldwide for its impeccable quality, exceptional customer service, and fair prices.</p>
+                                        <p>Created with <a href="" class="text-dark">Draftium</a> ©</p>
+                                      </div>
+                                      <div class="col-md-3 me-auto ms-auto text-center">
+                                        <div class="row">
+                                        <div class="col-md-4">
+                                          <h5>Catalog</h5>
+                                          <p>Testimonials</p>
+                                          <p>Contacts</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                          <h5>About Us</h5>
+                                          <p>FAQ</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                          <h5>Blog</h5>
+                                          <p>Projects</p>
+                                        </div>
+                                      </div>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <h2>Follow Us</h2>
+                                        <div class="icone-footer me-5">
+                                          <a href="facebook.com"><ion-icon size="large" class="" name="logo-facebook"></ion-icon></a>
+                                          <a href="instagram.com"><ion-icon size="large" class="" name="logo-instagram"></ion-icon></a>
+                                          <a href="youtube.com"><ion-icon size="large" class="" name="logo-youtube"></ion-icon></a>
+                                          <a href="pinterest.com"><ion-icon size="large" class="" name="logo-pinterest"></ion-icon></a>
+                                        </div>
+                                        <p class="my-5">All Rights Reserved</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+
+</body>
+</html>

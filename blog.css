@@ -1,0 +1,14 @@
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius:  50px;
+}
+.lien a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+ }
+.lien a:hover{
+     border-bottom: 1px solid black;
+     color: gray;
+ }

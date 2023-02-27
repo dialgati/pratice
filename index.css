@@ -1,0 +1,46 @@
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius:  50px;
+}
+h1{
+    position: absolute;
+}
+.carousel-item img{
+    height: 637px;
+    object-fit: cover;
+}
+button{
+    float: left;
+}
+/* h4{
+    text-align: start;
+    font-size: xx-large;
+} */
+a{
+    text-decoration: none;
+    list-style: none;
+}
+/* .container{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+} */
+.card a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.card a:hover{
+   border-bottom: 1px solid black;
+   color: gray;
+}
+.carousel-item p , h1 , .first{
+    position: relative;
+    bottom: 80px;
+}
+.adress p:hover{
+    border-bottom: 1px solid black;
+    color: gray;
+}
